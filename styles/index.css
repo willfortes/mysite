@@ -9,3 +9,19 @@
 ul {
     list-style: none;
 }
+
+ul li a {
+    font-weight: 600;
+}
+
+.text-pur {
+    color: #8c52ff;
+}
+
+.bg-pur-hover:hover {
+    background-color: #8c52ff !important;
+}
+
+.border-pur {
+    border-color: #8c52ff !important;
+}
