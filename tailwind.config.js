@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
-  theme: {
-    extend: {},
-  },
-  plugins: [
-    'tailwindcss',
-    'postcss-preset-env',
+  content: [    
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  mode: 'jit',
+  theme: {
+    container: {
+      center: true,
+    },
+  },
+  plugins: [],
 }

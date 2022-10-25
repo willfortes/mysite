@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-dark {
+    background-color: #151515;
+}
+
+.text-white {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
