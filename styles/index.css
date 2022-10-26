@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('http://fonts.cdnfonts.com/css/hammersmith-one');
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font {
+    font-family: 'Hammersmith One', sans-serif !important;
+}
+
 .bg-dark {
     background-color: #151515;
 }
@@ -18,10 +29,32 @@ ul li a {
     color: #8c52ff;
 }
 
+.text-co{
+    color: #DA416D;
+}
+
+.bg-pur,
 .bg-pur-hover:hover {
-    background-color: #8c52ff !important;
+    background-color: #DA416D !important;
+}
+
+.transparent-bg-pur {
+    background-color: rgba(218, 65, 109, 0.8);
 }
 
 .border-pur {
     border-color: #8c52ff !important;
+}
+
+.border-pur:hover {
+    border-color: #DA416D !important;
+}
+
+.img-back {
+    background-color: #DA416D;
+    background-image: url('../assets/back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
